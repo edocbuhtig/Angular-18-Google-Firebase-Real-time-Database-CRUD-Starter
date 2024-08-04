@@ -6,7 +6,7 @@ export const environment = {
   databaseURL: "",
   projectId: "",
   storageBucket: "",
-  messagingSenderId: "506592817583",
+  messagingSenderId: "",
   appId: ""
   }
 };
