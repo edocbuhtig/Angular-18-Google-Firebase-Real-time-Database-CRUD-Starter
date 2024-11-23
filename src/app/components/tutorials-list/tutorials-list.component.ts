@@ -4,9 +4,10 @@ import { Tutorial } from '../../models/tutorial.model';
 import { map } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-tutorials-list',
-  templateUrl: './tutorials-list.component.html',
-  styleUrls: ['./tutorials-list.component.css']
+    selector: 'app-tutorials-list',
+    templateUrl: './tutorials-list.component.html',
+    styleUrls: ['./tutorials-list.component.css'],
+    standalone: false
 })
 export class TutorialsListComponent implements OnInit {
   tutorials?: Tutorial[];
