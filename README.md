@@ -4,6 +4,6 @@
 ## Setup Commands
 
 ```
-git colone
+git clone
 npm install
 ng update <- only to upgrade to the latest ng version, after you update your local insalled global ng CLI
